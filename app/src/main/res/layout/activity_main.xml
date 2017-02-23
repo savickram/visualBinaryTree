@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <com.credosystemz.binarytree.RenderView android:background="#FFFFFF"
+        android:layout_width="match_parent" android:layout_height="400dp" android:paddingLeft="20dp"
+        android:layout_gravity="center_horizontal|top" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Node"
+        android:id="@+id/addNodeButton"
+        android:layout_gravity="left|bottom" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Node"
+        android:id="@+id/deleteNode"
+        android:layout_gravity="right|bottom" />
+</FrameLayout>
